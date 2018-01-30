@@ -41,6 +41,7 @@ class ViewController: UIViewController {
     @IBAction func output(_ sender: UIButton) {
         let result = calculate()
         lbDisplay.text = String(result)
+        input = ""
     }
     
     // linked to "c"
